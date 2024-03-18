@@ -13,7 +13,7 @@ export default function Home() {
       <BalloonAnimation>
         <div className="flex flex-col gap-20 h-full min-h-screen w-full items-center">
           <Hero />
-          <MemorySection />
+          <MemorySection className="animate-fadeInLeft" />
           <VirtuesSection />
           <GratitudeSection />
           <Button

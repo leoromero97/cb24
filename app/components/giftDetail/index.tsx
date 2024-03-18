@@ -39,7 +39,7 @@ export default function GiftDetail({
         <Image
           src={imageSrc}
           alt={imageAlt}
-          className="w-full object-fill h-[600px]"
+          className="w-full object-fill h-[680px]"
           width={300}
           height={600}
         />

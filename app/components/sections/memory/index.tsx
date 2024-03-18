@@ -1,9 +1,16 @@
 import { ASSETS } from "@/app/constants/assets";
+import clsx from "clsx";
 import Image from "next/image";
+import { SectionPropTypes } from "../gratitude";
 
-export default function MemorySection() {
+export default function MemorySection({ className }: SectionPropTypes) {
   return (
-    <section className="flex flex-col items-center gap-10 text-center max-w-screen-lg">
+    <section
+      className={clsx(
+        "flex flex-col items-center gap-10 text-center max-w-screen-lg",
+        className
+      )}
+    >
       <Image
         src={ASSETS.memory.src}
         alt={ASSETS.memory.alt}
