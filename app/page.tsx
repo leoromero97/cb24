@@ -1,11 +1,11 @@
 "use client";
 
+import BalloonAnimation from "./components/balloons";
+import Button from "./components/button";
+import GratitudeSection from "./components/sections/gratitude";
 import Hero from "./components/sections/hero";
-import BalloonAnimation from "./components/ballons";
 import MemorySection from "./components/sections/memory";
 import VirtuesSection from "./components/sections/virtues";
-import GratitudeSection from "./components/sections/gratitude";
-import Button from "./components/button";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
           <GratitudeSection />
           <Button
             href="/gift-one"
-            title="Ver segundo regalo"
+            title="Ver primer regalo"
             text="Ver primer regalo"
           />
           <small className="text-center">✨ 15/12/2017 - ♾️ ✨</small>

@@ -7,7 +7,7 @@ export default function VirtuesSection() {
       <Image
         src={ASSETS.virtues.src}
         alt={ASSETS.virtues.alt}
-        className="max-w-lg w-full"
+        className="max-w-lg w-full rounded-lg"
       />
       <h2 className="text-3xl font-semibold">
         Me pone muy feliz estar con vos

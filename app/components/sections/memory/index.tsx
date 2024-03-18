@@ -7,7 +7,7 @@ export default function MemorySection() {
       <Image
         src={ASSETS.memory.src}
         alt={ASSETS.memory.alt}
-        className="max-w-lg w-full"
+        className="max-w-lg w-full rounded-lg"
       />
       <h2 className="text-3xl font-semibold">Otro cumpleañito juntos</h2>
       <p className="text-xl font-medium">
