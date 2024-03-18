@@ -7,7 +7,7 @@ export default function GratitudeSection() {
       <Image
         src={ASSETS.gratitude.src}
         alt={ASSETS.gratitude.alt}
-        className="max-w-lg w-full"
+        className="max-w-lg w-full rounded-lg"
       />
       <h3 className="text-3xl font-semibold">Solo me queda dar las gracias</h3>
       <p className="text-xl font-medium">
