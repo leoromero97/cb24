@@ -1,9 +1,19 @@
 import { ASSETS } from "@/app/constants/assets";
+import clsx from "clsx";
 import Image from "next/image";
 
-export default function GratitudeSection() {
+export type SectionPropTypes = {
+  className?: string;
+};
+
+export default function GratitudeSection({ className }: SectionPropTypes) {
   return (
-    <section className="flex flex-col items-center gap-10 text-center max-w-screen-lg">
+    <section
+      className={clsx(
+        "flex flex-col items-center gap-10 text-center max-w-screen-lg",
+        className
+      )}
+    >
       <Image
         src={ASSETS.gratitude.src}
         alt={ASSETS.gratitude.alt}
