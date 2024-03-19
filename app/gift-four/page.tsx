@@ -1,3 +1,4 @@
+import Button from "../components/button";
 import Pill from "../components/pill";
 
 export default function GiftPage() {
@@ -12,6 +13,11 @@ export default function GiftPage() {
           <span className="text-slate-100 font-light line-through">Llega el sábado 23/03</span>
           <span className="ml-2">Llega el martes 19/03 por la mañana</span>
         </p>
+        <Button
+            href="/"
+            title="Volver al inicio"
+            text="Volver al inicio"
+          />
       </section>
     </main>
   );

@@ -99,7 +99,7 @@
 
 @keyframes burbujas {
   0% {
-    bottom: -240%;
+    bottom: -180%;
     opacity: 0;
   }
   50% {
