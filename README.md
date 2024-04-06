@@ -2,6 +2,7 @@
 
 ### Descripción general
 Web app para mostrar regalos privada
+![image](https://github.com/leoromero97/cb24/assets/57498210/ce59dd57-635e-448b-afd9-f0ea17921738)
 
 ### Tecnologías
 - Next JS
